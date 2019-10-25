@@ -1,0 +1,4 @@
+1.gaussian kernelを実装する gaussianKernel.m
+2.パラメータC,σを決定する dataset3Params.m
+3.メールに出てくる文字をマッピングする processEmail.m
+4.メールの特徴ベクトルを完成させる emailFeatures.m
