@@ -1,0 +1,10 @@
+1.K-means クラスタリング
+  1.すべてのトレーニング例x（i）を最も近い重心に割り当てる findClosestCentroids.m
+  2.クラスターごとに平均をとって重心をそこに移動する computeCentroids.m(ループなしで実装可能)
+  3.最初の重心をランダムに決める　kMeansInitCentroids.m
+  4.画像試す。k変えてみる。
+
+2.PCA
+  1.covariance matrix(大文字Σ)を出す  pca.m なんだっけこれ？
+  2.SVDの結果を利用してXをZ?に投影するprojectData.m
+  3.reconstructする(ZからもとのX(おおよそ)を復元する) recoverData.m
