@@ -1,0 +1,10 @@
+1.Anomaly detection
+  1.データのmuとσを求めて正規分布にフィットさせる estimateGaussian.m
+  2.cross validationデータを利用して最適なεを選ぶ。　selectThreshold.m
+
+2.recommender system
+  1.コストfunctionを実装(正則化なし) cofiCostFunc.m
+  2.gradを実装(正則化なし) cofiCostFunc.m
+  3.コストfunctionに正則化を追加 cofiCostFunc.m
+  4.正則化したgradを実装 cofiCostFunc.m
+  
